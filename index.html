@@ -47,4 +47,4 @@ function loop(){requestAnimationFrame(loop);const dt=Math.min(clk.getDelta(),0.0
 function finish(){playing=false;const m=document.getElementById('menu');m.style.display='flex';m.querySelector('h1').textContent=saved>=total?'Everyone is safe':'Time is up';
  m.querySelector('p').textContent='You brought '+saved+' of '+total+' passengers to the rescue ship. They are warm and cosy with Coffeebreak cocoa.';document.getElementById('play').textContent='Play again'}
 cam.position.set(0,10,46);loop();addEventListener('resize',()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();R.setSize(innerWidth,innerHeight)});
-</script></body></html>
+</script><!--cb-game-cart-start--><section id="cb-game-cart" data-store="titanic-lifeboat-rescue" aria-label="Cart"><script type="application/json" id="cb-game-cart-data">{"storeId":"titanic-lifeboat-rescue","currency":"USD","items":[{"id":"full","name":"Coffeebreak Titanic: Lifeboat Rescue","amount":"10.00","currency":"USD"}]}</script></section><script src="payid-cart/cart.js"></script><script src="payid-cart/game-cart.js"></script><script src="payid-cart/game-mount.js"></script><!--cb-game-cart-end--></body></html>
